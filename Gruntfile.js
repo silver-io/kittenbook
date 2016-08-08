@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		concat: {
 			release: {
-				src: ['js/values.js', 'js/prompt.js'],
+				src: ['js/values.js', 'js/prompt.js', 'js/getImages'],
 				dest: 'release/main.js'
 			}	
 		},
